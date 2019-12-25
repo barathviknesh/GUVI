@@ -1,0 +1,4 @@
+ function getFullName(firstName,secoundName){
+           
+           return(firstName+' '+secoundName);
+           }

@@ -1,0 +1,6 @@
+      function getLengthOfWord(str){
+          var len=0;
+          len=str.length;
+          return len
+        }
+      

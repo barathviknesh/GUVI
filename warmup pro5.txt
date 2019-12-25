@@ -1,0 +1,13 @@
+function isSameLength(string1,string2){
+          var len1=0
+          var len2=0
+          len1=string1.length
+          len2=string2.length
+          if(len1==len2)
+          return "isSameLength";
+          else
+          return "NOT SAME LENGTH";
+          }
+          
+
+      

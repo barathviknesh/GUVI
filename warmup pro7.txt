@@ -1,0 +1,8 @@
+ function getNthElement(array){
+            if(array==0)
+            return "undefined";
+        var arr=array;
+        var last=arr[arr.length-1];
+        console.log(last);      
+        }
+       

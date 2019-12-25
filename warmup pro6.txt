@@ -1,0 +1,7 @@
+ function getNthElement(array){
+          var arr=0;
+          arr=array.length;
+          if (arr.length==0)
+          return "undefined";
+          else
+          return arr;

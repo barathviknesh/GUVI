@@ -1,0 +1,6 @@
+function areBothOdd(num1,num2) {
+           if(num1%2==!0&&num2%2==!0)
+           return("both are Odd");
+           else
+           return("both are NOT Odd")
+        }

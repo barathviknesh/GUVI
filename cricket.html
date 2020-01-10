@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+    .but{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+</style>
+    </head>
+<body style="background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1499084732479-de2c02d45fcc%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Falone&docid=G8qY0KDZBHomuM&tbnid=DWIt_N3fswtPSM%3A&vet=10ahUKEwi6gfrSnvjmAhWBF3IKHUoUAOUQMwh7KAIwAg..i&w=1000&h=563&client=firefox-b-d&bih=565&biw=1280&q=image&ved=0ahUKEwi6gfrSnvjmAhWBF3IKHUoUAOUQMwh7KAIwAg&iact=mrc&uact=8)">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+<form class="but">
+<div class="row" >
+<div class="col">
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">T 1 RUNS</label>
+    <textarea style="background-color: aqua;width:200%;" class="form-control" id="tem1Board" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">T 2TOTAL</label>
+    <textarea style="background-color: aqua;width:200%;"class="form-control" id="tem1totalBoard" rows="2"></textarea>
+  </div>
+</div>
+<div class="col">
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">T 2 RUNS</label>
+        <textarea style="background-color: rgba(70, 4, 64, 0.534);width:200%;"class="form-control" id="tem2Board" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">T  2 TOTAL</label>
+        <textarea style="background-color: rgb(232, 241, 113);width:200%;"class="form-control" id="tem2totalBoard" rows="2"></textarea>
+      </div>
+    </div>
+</div>
+</form>
+     <div id="tem2Board" class="flex-container" style="height: 700pix;width: 20px;justify-content: center;background-color: blue;"></div>
+<div class="but">
+<button type="button" id="team1" onclick="ballClick(this)" class="btn btn-outline-dark">Team1 Strike</button>
+<button type="button" id="team2" onclick="ballClick(this)" class="btn btn-outline-dark" disabled>Team2 Strike</button>
+</div>
+<script type="text/javascript" src="cricket.js"></script>  
+</body>
+</html>

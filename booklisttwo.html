@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>LIST APP</title>
+</head>
+<body>
+    <div class="container">
+    <form id="book-form">
+        <div class="form-group mt-3">
+          <label for="title">TITLE</label>
+          <input type="text" class="form-control" id="title" placeholder="enter title">
+        </div>
+        <div class="form-group">
+          <label for="author">AUTHOR</label>
+          <input type="text" class="form-control" id="author" placeholder="enter author">
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN</label>
+            <input type="text" class="form-control" id="isbn" placeholder="enter ISBN">
+          </div>
+          <button type="submit" class="btn btn-secondary btn-lg btn-block" value="add book">ADD</button>
+    </form>
+      <!-- TABLE -->
+
+      <table class="table mt-5" >
+        <thead class="thead-dark">
+          
+          <tr>
+            
+            <th >Title</th>
+            <th >Author</th>
+            <th >ISBN</th>
+            <th>X</th>
+          </tr>  
+          
+          
+        </thead>
+        
+        
+          <tbody id='book-list'></tbody>
+      
+      </table>
+      
+  
+      </div>
+
+      <script src="booklisttwo.js"></script>
+
+
+    <!-- cdns -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
